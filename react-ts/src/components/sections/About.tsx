@@ -5,6 +5,8 @@
 // Experiência
 // Missão
 
+import projectIrineu from "../../assets/images/project_irineu.jpeg";
+
 export default function About() {
   return (
     <section
@@ -18,7 +20,7 @@ export default function About() {
             <div className="h-[350px] w-full max-w-sm overflow-hidden rounded-3xl bg-stone-200 shadow-xl md:h-[450px] md:w-[380px]">
               {" "}
               <img
-                src="/src/assets/images/project_irineu.jpeg"
+                src={projectIrineu}
                 alt="Psicólogo em atendimento"
                 className="h-full w-full object-cover"
               />
