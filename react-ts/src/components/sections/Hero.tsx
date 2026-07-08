@@ -12,7 +12,7 @@
 import Container from "../ui/Container";
 import Button from "../ui/Button";
 import { handleScheduleClick } from "../../lib/utils";
-import projectIrineu from "../../assets/images/project_irineu_2.jpeg";
+import projectIrineu from "../../assets/images/project_irineu_.jpeg";
 
 export default function Hero() {
   return (
@@ -25,7 +25,7 @@ export default function Hero() {
         <img
           src={projectIrineu}
           alt="Psicólogo em atendimento"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-center"
         />
 
         <div className="absolute inset-0 bg-gradient-to-r from-stone-50 via-stone-50/60 to-transparent" />
