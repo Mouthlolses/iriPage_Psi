@@ -34,7 +34,7 @@ export default function Hero() {
       {/* Imagem Mobile */}
       <div className="absolute inset-0 md:hidden">
         <img
-          src="/src/assets/images/project_irineu_2.jpeg"
+          src={projectIrineu}
           className="h-full w-full object-cover opacity-10"
         />
       </div>
