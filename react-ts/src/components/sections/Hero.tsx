@@ -12,7 +12,7 @@
 import Container from "../ui/Container";
 import Button from "../ui/Button";
 import { handleScheduleClick } from "../../lib/utils";
-import projectIrineu from "../../assets/images/project_irineu_.jpeg";
+import projectIrineu from "../../assets/images/project_irineu_2.jpeg";
 
 export default function Hero() {
   return (
