@@ -41,28 +41,36 @@ export default function Hero() {
 
       {/* Conteúdo */}
       <Container>
-        <div className="relative z-10 max-w-3xl py-20 md:py-0">
-          {/* Nome */}
-          <div className="mb-5">
-            <p className="text-base font-medium text-neutral-500 md:text-lg">
-              José Irineu
-            </p>
-
-            <div className="mt-2 h-px w-12 bg-emerald-500" />
-          </div>
-
+      <div className="relative z-10 max-w-3xl py-20 md:py-0">
           {/* CRP */}
-          <span className="mb-6 inline-block rounded-full bg-emerald-100 px-4 py-2 text-xs font-semibold text-emerald-700 md:text-sm">
+          <span className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-100 px-4 py-2 text-xs font-semibold text-emerald-700 md:text-sm">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
             Psicólogo Clínico • CRP 11/25743
           </span>
 
-          <h1 className="text-4xl font-bold leading-tight text-neutral-900 sm:text-5xl md:text-6xl">
-            Um espaço seguro para cuidar da sua saúde emocional.
+          {/* Nome */}
+          <div className="mb-5 flex items-center gap-3">
+            <div className="h-px w-8 bg-emerald-500" />
+            <p className="text-base font-medium tracking-wide text-neutral-500 md:text-lg">
+              José Irineu
+            </p>
+          </div>
+
+          <h1 className="text-4xl font-bold leading-tight tracking-tight text-neutral-900 sm:text-5xl md:text-6xl">
+            Um espaço seguro para cuidar da{" "}
+            <span className="text-emerald-700">sua saúde emocional</span>.
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-8 text-neutral-600 md:mt-8 md:text-xl">
-            Atendimento humanizado para adolescentes e adultos, presencial e
-            online.
+            Escuta qualificada e acolhimento profissional para{" "}
+            <span className="font-medium text-slate-800">
+              adolescentes, adultos, idosos e casais
+            </span>
+            , de forma{" "}
+            <span className="font-medium text-slate-800">
+              presencial ou online
+            </span>
+            .
           </p>
 
           <div className="mt-10 md:mt-12">
